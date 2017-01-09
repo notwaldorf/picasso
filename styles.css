@@ -1,3 +1,9 @@
+/* Try to win */
+body, span, div, dt {
+  font-family: Helvetica !important;
+  font-weight: lighter !important;
+}
+
 /* Hide the left nav */
 #mainbody {
   margin-left: 30px !important;
@@ -36,8 +42,6 @@
   font-size: 13px !important;
   font-weight: lighter !important;
   font-size: 16px !important;
-  font-weight: 100 !important;
-  font-family: Helvetica !important;
 }
 .goog-imageless-button:hover, .navbuttonouter:hover {
   color: #4485f4 !important;
@@ -55,15 +59,11 @@
 /* Top date column style */
 .date-top {
   font-size: 16px !important;
-  font-weight: 100 !important;
-  font-family: Helvetica !important;
 }
 .wk-today {
   color: #4485f4 !important;
 }
 .wk-dayname, th {
-  font-family: Helvetica !important;
-  font-weight: lighter !important;
   font-size: 14px !important;
 }
 
@@ -73,15 +73,6 @@
 }
 .tg-nowptr {
   height: 0px  !important;
-}
-
-/* Fix table spacings */
-/* Between the all-day and rest */
-#scrolltimedeventswk {
-  margin-top: -6px;
-}
-.wk-allday .st-grid {
-  padding: 0 !important;
 }
 
 /* Don't highlight today, grey out the weekends */
@@ -105,8 +96,6 @@
 
 /* Individual event text, all-day event text*/
 .chip dt, .st-c-pos {
-  font-family: Helvetica !important;
-  font-weight: lighter !important;
   font-size: 12px !important;
 }
 
@@ -114,6 +103,23 @@
 .cbrdcc, .st-c-pos {
   font-weight: bold !important;
 }
+
+/* Fix table spacings */
+
+/* Between the all-day and rest */
+#scrolltimedeventswk {
+  margin-top: -6px !important;
+}
+.wk-allday .st-grid {
+  padding: 0 !important;
+}
+
+/* Gutter times */
+.wk-scrolltimedevents {
+}
+
+/* Vertical hour lines */
+.tg-hourmarkers {}
 
 /*.tg-gutter {
   margin-right: 0 !important;
@@ -127,3 +133,11 @@
 .tg-col-overlaywrapper {
   position: inherit !important;
 }*/
+
+/* Notes on how the DOM is set up:
+ - #topcontainerwk is the column name and all-day event section
+ - #topcontainerBorderwk is the border in between
+ - #scrolltimedeventswk is the individual events section
+   - this has 2 rows. First row is the "table settings", like the
+     gutter, the hour markers, cell sizes
+*/
