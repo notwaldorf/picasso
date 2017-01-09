@@ -88,9 +88,19 @@ body, span, div, dt {
 }
 
 /* Event cells */
-/* All day events, Individual events */
-.rb-n, .dl.cbrd {
+/* Individual event chip */
+
+/* All day events */
+.rb-n {
   padding: 4px 0 !important;
+  border: none !important;
+}
+
+/* Individual events only have a thick left border */
+.mask-left {
+  border-left-width: 3px !important;
+}
+.cbrd, .mask-right {
   border-color: transparent !important;
 }
 
