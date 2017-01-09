@@ -1,25 +1,21 @@
+/* Hide the left nav */
 #mainbody {
   margin-left: 30px !important;
 }
 #nav {
   display: none !important;
 }
-#mg-settings {
-  display: none !important;
+#topLeftNavigation {
+  left: 30px !important;
 }
-#mg-more {
-  display: none !important;
-}
-.applogo {
+
+/* Make the top white, hide some buttons */
+#mg-settings, #mg-more, .applogo, .trans-strip.goog-inline-block {
   display: none !important;
 }
 #vr-nav {
   background: white !important;
-}
-#vr-nav {
   border: #f1f1f1 !important;
-}
-#vr-nav {
   margin: 0 !important;
 }
 #mainnav, .gb_Ee.gb_Ef {
@@ -28,17 +24,8 @@
 #mainnav{
   border: none !important;
 }
-.trans-strip.goog-inline-block {
-  display: none !important;
-}
-#topLeftNavigation {
-  left: 30px !important;
-}
-.date-top {
-  font-size: 16px !important;
-  font-weight: 100 !important;
-  font-family: Helvetica !important;
-}
+
+/* Button styles */
 .goog-imageless-button, .navbuttonouter {
   background-image: none !important;
   box-shadow: none !important;
@@ -65,15 +52,12 @@
   font-weight: normal !important;
 }
 
-.wk-full-mode .wk-today {
-  border: none !important;
-  background: transparent !important;
+/* Top date column style */
+.date-top {
+  font-size: 16px !important;
+  font-weight: 100 !important;
+  font-family: Helvetica !important;
 }
-
-.wk-full-mode .wk-tomorrow {
-  border: none !important;
-}
-
 .wk-today {
   color: #4485f4 !important;
 }
@@ -82,27 +66,56 @@
   font-weight: lighter !important;
   font-size: 14px !important;
 }
+
+/* Now marker */
+.tg-nowmarker {
+  border-color: #4485f4 !important;
+}
+.tg-nowptr {
+  height: 0px  !important;
+}
+
+/* Fix table spacings */
+/* Between the all-day and rest */
+#scrolltimedeventswk {
+  margin-top: -6px;
+}
 .wk-allday .st-grid {
   padding: 0 !important;
 }
 
-#scrolltimedeventswk {
-  margin-top: -6px;
+/* Don't highlight today, grey out the weekends */
+.wk-full-mode .wk-today, .wk-full-mode .wk-tomorrow {
+  border: none !important;
+  background: transparent !important;
 }
-
 .tg-col.tg-weekend {
   background: #f5f5f5 !important;
 }
-
 .tg-today, .wk-allday .st-bg-today {
   background: transparent !important;
 }
 
-dl.cbrd {
+/* Event cells */
+/* All day events, Individual events */
+.rb-n, .dl.cbrd {
+  padding: 4px 0 !important;
   border-color: transparent !important;
 }
 
-.tg-gutter {
+/* Individual event text, all-day event text*/
+.chip dt, .st-c-pos {
+  font-family: Helvetica !important;
+  font-weight: lighter !important;
+  font-size: 12px !important;
+}
+
+/* Individual event name, all-day event name */
+.cbrdcc, .st-c-pos {
+  font-weight: bold !important;
+}
+
+/*.tg-gutter {
   margin-right: 0 !important;
 }
 
@@ -111,16 +124,6 @@ dl.cbrd {
   left: 0 !important;
 }
 
-.tg-dualmarker60 {
-  border-bottom: none !important;
-}
-
 .tg-col-overlaywrapper {
   position: inherit !important;
-}
-.tg-nowmarker {
-  border-color: #4485f4 !important;
-}
-.tg-nowptr {
-  height: 0px  !important;
-}
+}*/
