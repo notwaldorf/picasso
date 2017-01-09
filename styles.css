@@ -88,7 +88,13 @@ body, span, div, dt {
 }
 
 /* Event cells */
-/* Individual event chip */
+/* Notes on how the DOM is set up:
+ - #topcontainerwk is the column name and all-day event section
+ - #topcontainerBorderwk is the border in between
+ - #scrolltimedeventswk is the individual events section
+   - this has 2 rows. First row is the "table settings", like the
+     gutter, the hour markers, cell sizes. 
+*/
 
 /* All day events */
 .rb-n {
@@ -110,11 +116,9 @@ body, span, div, dt {
 }
 
 /* Individual event name, all-day event name */
-.cbrdcc, .st-c-pos {
+.cbrdcc, .st-c-pos, .evt-lk {
   font-weight: bold !important;
 }
-
-/* Fix table spacings */
 
 /* Between the all-day and rest */
 #scrolltimedeventswk {
@@ -134,23 +138,7 @@ body, span, div, dt {
   border-top: 1px solid #e6e5e6 !important;
 }
 
-/*.tg-gutter {
+/* Essentially the chip width? */
+.tg-gutter {
   margin-right: 0 !important;
 }
-
-.tg-gutter > .chip {
-  margin: 0 !important;
-  left: 0 !important;
-}
-
-.tg-col-overlaywrapper {
-  position: inherit !important;
-}*/
-
-/* Notes on how the DOM is set up:
- - #topcontainerwk is the column name and all-day event section
- - #topcontainerBorderwk is the border in between
- - #scrolltimedeventswk is the individual events section
-   - this has 2 rows. First row is the "table settings", like the
-     gutter, the hour markers, cell sizes
-*/
