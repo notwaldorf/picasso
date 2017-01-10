@@ -1,0 +1,26 @@
+{
+  "name": "google-calendar-picasso-theme",
+  "version": "1.0.0",
+  "description": "A prettier Google Calendar theme",
+  "main": "styles.css",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-zip": "^3.1.0",
+    "merge-stream": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notwaldorf/picasso.git"
+  },
+  "author": "Monica Dinculescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notwaldorf/picasso/issues"
+  },
+  "homepage": "https://github.com/notwaldorf/picasso#readme"
+}
