@@ -251,3 +251,35 @@ body, span, div, dt {
   font-weight: 500 !important;
   text-transform: uppercase !important;
 }
+
+/* Create/Edit event page */
+.ep-ea-btn-wrapper:not(.ep-ea-back-btn):not(.ep-ea-print-btn):not(.action-btn-wrapper) .goog-imageless-button-content,
+.ep-ea-btn-wrapper:not(.ep-ea-back-btn):not(.ep-ea-print-btn):not(.action-btn-wrapper) .goog-imageless-button {
+  background-color: transparent !important;
+  color: #5a5a5a !important;
+  background-image: none !important;
+  text-shadow: none !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  border: none !important;
+  text-transform: uppercase !important;
+}
+
+.action-btn-wrapper.ep-ea-btn-wrapper .goog-imageless-button-content,
+.action-btn-wrapper.ep-ea-btn-wrapper .goog-imageless-button {
+  background-color: #F44336 !important;
+  color: white !important;
+  background-image: none !important;
+  text-shadow: none !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  border: none !important;
+  text-transform: uppercase !important;
+}
+
+.ep-ea-btn-wrapper.ep-ea-back-btn .goog-imageless-button,
+.ep-ea-btn-wrapper.ep-ea-print-btn .goog-imageless-button {
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+}
