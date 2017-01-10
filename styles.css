@@ -69,7 +69,6 @@ body, span, div, dt {
   font-weight: bold !important;
   font-size: 12px !important;
   border: none !important;
-  padding-top: 1px !important;
 }
 
 #createEventButtonContainer .goog-imageless-button-hover {
