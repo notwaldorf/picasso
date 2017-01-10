@@ -5,14 +5,15 @@ body, span, div, dt {
   font-weight: 400 !important;
 }
 
-/* Hide the left nav but move the create button up*/
-#dp_h, #clst_my, #clst_fav {
-  display: none;
-}
 #mainbody {
-  margin-left: 30px !important;
+  margin-left: 5px !important;
   padding-top: 0 !important;
 }
+
+#mainbody.expanded {
+  margin-left: 184px !important;
+}
+
 /* Make the top white, hide some buttons */
 #mg-settings, #mg-more, .applogo, .trans-strip.goog-inline-block {
   display: none !important;
@@ -55,13 +56,17 @@ body, span, div, dt {
   color: #4485f4 !important;
   font-weight: normal !important;
 }
+#vr-nav {
+  margin-left: 30px !important;
+}
 #topLeftNavigation {
-  left: 130px !important;
+  left: 140px !important;
 }
 /* Create event button */
 #createEventButtonContainer {
   position: absolute;
-  top: -50px !important;
+  top: -47px !important;
+  left: 40px;
 }
 
 #createEventButtonContainer .goog-imageless-button-content,

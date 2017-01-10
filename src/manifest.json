@@ -8,6 +8,7 @@
   ],
   "content_scripts": [{
     "css": ["styles.css"],
+    "js": ["contentScript.js"],
     "matches": ["https://calendar.google.com/*"]
   }],
   "icons": {
