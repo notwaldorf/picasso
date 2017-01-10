@@ -135,11 +135,13 @@ body, span, div, dt {
   line-height: 1.2 !important;
 }
 
+.chip:not(.chip-border) {
+  left: 0 !important;
+}
 /* Individual event time */
 .chip-caption {
   font-size: 12px !important;
 }
-
 .ctdiv {
   max-height: inherit !important;
 }
