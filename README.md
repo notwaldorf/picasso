@@ -13,6 +13,8 @@ I think the choice is clear.
 ## How to get it
 🛍 Install the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/picasso-a-google-calendar/ngodfeghffipflmlaehgbklfhkfnklbd).
 
+🦊 Install the extension from the [Firefox Add-on Store](https://addons.mozilla.org/en-US/firefox/addon/picasso-google-calendar-theme/).
+
 📦 Install the extension locally as an unpacked extension:
  1. Clone this repo somewhere
  1. Go to `chrome://extensions`
