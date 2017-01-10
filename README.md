@@ -11,7 +11,9 @@ Google Calendar with extension:
 I think the choice is clear.
 
 ## How to get it
-You can install the extension from the Chrome Web Store, or install it locally as an unpacked extension:
+🛍 Install the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/picasso-a-google-calendar/ngodfeghffipflmlaehgbklfhkfnklbd).
+
+📦 Install the extension locally as an unpacked extension:
  1. Clone this repo somewhere
  1. Go to `chrome://extensions`
  1. Make sure the `Developer mode` checkbox is checked
