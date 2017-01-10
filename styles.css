@@ -1,18 +1,21 @@
 /* Try to win */
 body, span, div, dt {
-  font-family: Helvetica !important;
+  font-family: Roboto, Helvetica !important;
   font-weight: lighter !important;
 }
 
-/* Hide the left nav */
 #mainbody {
   margin-left: 30px !important;
 }
-#nav {
-  display: none !important;
+
+/* Hide the left nav but move the create button up*/
+#createEventButtonContainer {
+  position: absolute;
+  top: -50px !important;
 }
-#topLeftNavigation {
-  left: 30px !important;
+
+#dp_h, #clst_my, #clst_fav {
+  display: none;
 }
 
 /* Make the top white, hide some buttons */
@@ -32,7 +35,7 @@ body, span, div, dt {
 }
 
 /* Button styles */
-.goog-imageless-button, .navbuttonouter {
+#mainnav .goog-imageless-button, .navbuttonouter {
   background-image: none !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
@@ -43,10 +46,10 @@ body, span, div, dt {
   font-weight: lighter !important;
   font-size: 16px !important;
 }
-.goog-imageless-button:hover, .navbuttonouter:hover {
+#mainnav  .goog-imageless-button:hover, .navbuttonouter:hover {
   color: #4485f4 !important;
 }
-.goog-imageless-button-checked {
+#mainnav  .goog-imageless-button-checked {
   background-image: none !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
@@ -55,6 +58,8 @@ body, span, div, dt {
   color: #4485f4 !important;
   font-weight: normal !important;
 }
+
+/* Create event button */
 
 /* Top date column style */
 .date-top {
@@ -93,7 +98,7 @@ body, span, div, dt {
  - #topcontainerBorderwk is the border in between
  - #scrolltimedeventswk is the individual events section
    - this has 2 rows. First row is the "table settings", like the
-     gutter, the hour markers, cell sizes. 
+     gutter, the hour markers, cell sizes.
 */
 
 /* All day events */
@@ -104,7 +109,7 @@ body, span, div, dt {
 
 /* Individual events only have a thick left border */
 .mask-left {
-  border-left-width: 3px !important;
+  border-left-width: 0px !important;
 }
 .cbrd, .mask-right {
   border-color: transparent !important;
