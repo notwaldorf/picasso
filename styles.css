@@ -1,11 +1,7 @@
 /* Try to win */
 body, span, div, dt {
   font-family: Roboto, Helvetica !important;
-  font-weight: lighter !important;
-}
-
-#mainbody {
-  margin-left: 30px !important;
+  font-weight: 400 !important;
 }
 
 /* Hide the left nav but move the create button up*/
@@ -14,10 +10,23 @@ body, span, div, dt {
   top: -50px !important;
 }
 
+#createEventButtonContainer .goog-imageless-button-content,
+#createEventButtonContainer .goog-imageless-button {
+  background: #F44336 !important;
+  background-image: none !important;
+  text-shadow: none !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  border: none;
+}
 #dp_h, #clst_my, #clst_fav {
   display: none;
 }
 
+#mainbody {
+  margin-left: 30px !important;
+  padding-top: 0 !important;
+}
 /* Make the top white, hide some buttons */
 #mg-settings, #mg-more, .applogo, .trans-strip.goog-inline-block {
   display: none !important;
@@ -43,7 +52,7 @@ body, span, div, dt {
   background-color: transparent !important;
   color: #444 !important;
   font-size: 13px !important;
-  font-weight: lighter !important;
+  font-weight: normal !important;
   font-size: 16px !important;
 }
 #mainnav  .goog-imageless-button:hover, .navbuttonouter:hover {
@@ -134,7 +143,8 @@ body, span, div, dt {
 }
 
 /* Gutter times */
-.wk-scrolltimedevents {
+.tg-times-pri, .tg-time-pri, .tg-time-sec {
+  border: none !important;
 }
 
 /* Vertical hour lines */
@@ -146,4 +156,48 @@ body, span, div, dt {
 /* Essentially the chip width? */
 .tg-gutter {
   margin-right: 0 !important;
+}
+
+/*Popups */
+.qab-container.gcal-popup, .bubble {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+              0 3px 14px 2px rgba(0, 0, 0, 0.12),
+              0 5px 5px -3px rgba(0, 0, 0, 0.4) !important;
+  border: none !important;
+}
+
+.qab-container.gcal-popup .goog-inline-block.goog-imageless-button,
+.bubble .goog-inline-block.jfk-button {
+  border: none !important;
+  background: #4285f4 !important;
+  background-image: none !important;
+  color: white !important;
+  text-transform: uppercase !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+}
+
+.bubble .goog-inline-block.delete-button {
+  background: #F44336 !important;
+}
+
+.qab-container.gcal-popup textarea {
+  margin: 10px 0 !important;
+}
+
+/* Event dialog */
+.neb-title {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.neb-when-label {
+  display: none !important;
+}
+
+.neb-data th div {
+  color: #444 !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
 }
