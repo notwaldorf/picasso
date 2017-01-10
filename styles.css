@@ -125,6 +125,18 @@ body, span, div, dt {
   border: none !important;
 }
 
+/* Multi-week all day event arrow */
+.st-ad-ml, .st-ad-mr {
+  border-color: white !important;
+}
+.st-ad-ml2 {
+  border-width: 10px 6px 14px 0 !important;
+}
+
+.st-ad-mr2 {
+  border-width: 10px 0 14px 6px !important;
+}
+
 /* Individual events only have a thick left border */
 .mask-left {
   border-left-width: 0px !important;
