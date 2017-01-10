@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name" : "Prettier Google Calendar skin",
-  "description" : "Skin that makes the Google Calendar prettier",
+  "name" : "Picasso - A Google Calendar theme",
+  "description" : "A prettier Google Calendar theme",
   "version" : "1.0.0",
   "permissions": [
     "activeTab"
