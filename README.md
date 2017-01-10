@@ -6,7 +6,7 @@ Google Calendar without extension:
 ![calendar without extension](https://cloud.githubusercontent.com/assets/1369170/21790622/74a34c90-d692-11e6-92d6-9a7251aae2ed.png)
 
 Google Calendar with extension:
-![calendar with extension](https://cloud.githubusercontent.com/assets/1369170/21791134/b72b22ec-d695-11e6-88de-46c632bed3b8.png)
+![calendar with extension](https://cloud.githubusercontent.com/assets/1369170/21791582/8bddba52-d698-11e6-8e96-1cc5196a2c2d.png)
 
 I think the choice is clear.
 
