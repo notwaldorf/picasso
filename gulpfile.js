@@ -9,8 +9,8 @@ var xpiName = 'picasso-google-calendar.xpi';
 var zipName = 'picasso-google-calendar.zip';
 
 gulp.task('default', function () {
-  var files = ['*', '!manifest.json'];
-  var manifest = gulp.src('manifest.json');
+  var files = ['src/*', '!src/manifest.json'];
+  var manifest = gulp.src('src/manifest.json');
   var dest = gulp.dest('bin/');
 
   merge(gulp.src(files), manifest)
