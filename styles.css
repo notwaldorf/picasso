@@ -5,24 +5,9 @@ body, span, div, dt {
 }
 
 /* Hide the left nav but move the create button up*/
-#createEventButtonContainer {
-  position: absolute;
-  top: -50px !important;
-}
-
-#createEventButtonContainer .goog-imageless-button-content,
-#createEventButtonContainer .goog-imageless-button {
-  background: #F44336 !important;
-  background-image: none !important;
-  text-shadow: none !important;
-  font-weight: normal !important;
-  font-size: 12px !important;
-  border: none;
-}
 #dp_h, #clst_my, #clst_fav {
   display: none;
 }
-
 #mainbody {
   margin-left: 30px !important;
   padding-top: 0 !important;
@@ -67,8 +52,29 @@ body, span, div, dt {
   color: #4485f4 !important;
   font-weight: normal !important;
 }
-
+#topLeftNavigation {
+  left: 130px !important;
+}
 /* Create event button */
+#createEventButtonContainer {
+  position: absolute;
+  top: -50px !important;
+}
+
+#createEventButtonContainer .goog-imageless-button-content,
+#createEventButtonContainer .goog-imageless-button {
+  background: #F44336 !important;
+  background-image: none !important;
+  text-shadow: none !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  border: none !important;
+  padding-top: 1px !important;
+}
+
+#createEventButtonContainer .goog-imageless-button-hover {
+  border: none !important;
+}
 
 /* Top date column style */
 .date-top {
@@ -202,8 +208,9 @@ body, span, div, dt {
   background-image: none !important;
   color: white !important;
   text-transform: uppercase !important;
-  font-weight: normal !important;
+  font-weight: bold !important;
   font-size: 12px !important;
+  padding-top: 1px !important;
 }
 
 .bubble .goog-inline-block.delete-button {
