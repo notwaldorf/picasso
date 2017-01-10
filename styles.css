@@ -132,6 +132,16 @@ body, span, div, dt {
 /* Individual event name, all-day event name */
 .cbrdcc, .st-c-pos, .evt-lk {
   font-weight: bold !important;
+  line-height: 1.2 !important;
+}
+
+/* Individual event time */
+.chip-caption {
+  font-size: 12px !important;
+}
+
+.ctdiv {
+  max-height: inherit !important;
 }
 
 /* Between the all-day and rest */
@@ -195,9 +205,20 @@ body, span, div, dt {
   display: none !important;
 }
 
+.neb-date {
+  font-size: 14px !important;
+}
+.neb-header {
+  margin-bottom: 10px !important;
+}
+
 .neb-data th div {
-  color: #444 !important;
-  font-size: 12px !important;
-  font-weight: bold !important;
+  color: #757575 !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
   text-transform: uppercase !important;
+}
+
+.neb-actions-left span {
+  font-size: 12px !important;
 }
