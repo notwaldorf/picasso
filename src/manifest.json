@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name" : "Picasso - A Google Calendar theme",
   "description" : "A prettier Google Calendar theme",
-  "version" : "1.0.1",
+  "version" : "1.1.0",
   "permissions": [
     "activeTab"
   ],
