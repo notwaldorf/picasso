@@ -80,6 +80,9 @@ body, span, div, dt {
 .wk-dayname, th {
   font-size: 14px !important;
 }
+.st-bg-all, .st-bg {
+  border-color: #efefef !important;
+}
 
 /* Now marker */
 .tg-nowmarker {
@@ -138,6 +141,12 @@ body, span, div, dt {
 .chip:not(.chip-border) {
   left: 0 !important;
 }
+
+/* Lol i think this literally fixes a bug */
+.chip-color-today {
+  border-color: white !important;
+}
+
 /* Individual event time */
 .chip-caption {
   font-size: 12px !important;
@@ -162,7 +171,15 @@ body, span, div, dt {
 /* Vertical hour lines */
 .tg-dualmarker, .tg-dualmarker60 {
   border-bottom: none !important;
-  border-top: 1px solid #e6e5e6 !important;
+  border-top: 1px solid #efefef !important;
+}
+
+.tg-col, .tg-col-today {
+  border-left: 1px solid #efefef !important;
+}
+
+.wk-allday {
+  border-color: #efefef !important;
 }
 
 /* Essentially the chip width? */
