@@ -28,7 +28,9 @@ body, span, div, dt {
 #mainnav{
   border: none !important;
 }
-
+#calcontent {
+  padding-top: 10px !important;
+}
 /* Button styles */
 #mainnav .goog-imageless-button, .navbuttonouter {
   background-image: none !important;
