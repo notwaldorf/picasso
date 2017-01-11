@@ -163,6 +163,11 @@ body, span, div, dt {
   line-height: 1.2 !important;
 }
 
+/* All-day event name */
+.rb-n {
+  padding-left: 6px !important
+}
+
 .chip:not(.chip-border) {
   left: 0 !important;
 }
