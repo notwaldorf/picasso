@@ -226,7 +226,8 @@ body, span, div, dt {
 }
 
 .qab-container.gcal-popup .goog-inline-block.goog-imageless-button,
-.bubble .goog-inline-block.jfk-button {
+.bubble .goog-inline-block.jfk-button,
+.neb-footer .goog-inline-block.jfk-button {
   border: none !important;
   background: #4285f4 !important;
   background-image: none !important;
@@ -237,7 +238,8 @@ body, span, div, dt {
   padding-top: 1px !important;
 }
 
-.bubble .goog-inline-block.delete-button {
+.bubble .goog-inline-block.delete-button,
+.neb-footer .goog-inline-block.delete-button {
   background: transparent !important;
   color: #5a5a5a !important;
 }
@@ -306,4 +308,41 @@ body, span, div, dt {
   background-color: transparent !important;
   background-image: none !important;
   border: none !important;
+}
+
+/* Agenda view */
+#lvHeader {
+  background-color: white !important;
+}
+
+#lv_listview .lv-today .lv-datecell {
+  background: transparent !important;
+  border: 2px solid #4485f4 !important;
+}
+
+#lv_listview .lv-today .lv-datecell span {
+  color: #4485f4 !important;
+  font-weight: bold !important;
+}
+
+/* Month view */
+.month-row .st-dtitle-today {
+  background: transparent !important;
+  border-top: 2px solid #4485f4 !important;
+  border-left: 2px solid #4485f4 !important;
+  border-right: 2px solid #4485f4 !important;
+}
+.month-row .st-dtitle-today span {
+  color: #4485f4 !important;
+  font-weight: bold !important;
+}
+.month-row .st-bg-today {
+  background: transparent !important;
+  border: 2px solid #4485f4 !important;
+}
+.month-row .st-dtitle-next {
+  border-left: none !important;
+}
+.month-row .st-dtitle-down {
+  border-top: 2px solid #4485f4 !important;
 }
