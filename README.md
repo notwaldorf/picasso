@@ -22,3 +22,10 @@ I think the choice is clear.
  1. Click `Load unpacked extension...`, and navigate to the folder that you cloned
  1. Refresh any Google Calendar pages you have open
  1. 💰💰💰
+
+💧 Install for a [Fluid App](http://fluidapp.com):
+ 1. Copy the `src/contentScript.js` into a new UserScript (⌃⌘U)
+ 1. Copy the `src/styles.css` into a new UserStyle (⌃⇧⌘U)
+ 1. Set both to be active for `*calendar.google.com*`
+ 1. Refresh any Google Calendar pages you have open
+ 1. 💰💰💰
