@@ -22,3 +22,18 @@ I think the choice is clear.
  1. Click `Load unpacked extension...`, and navigate to the folder that you cloned
  1. Refresh any Google Calendar pages you have open
  1. 💰💰💰
+
+💧 Install for a [Fluid App](http://fluidapp.com):
+ 1. Copy the `src/contentScript.js` into a new UserScript (⌃⌘U)
+ 1. Copy the `src/styles.css` into a new UserStyle (⌃⇧⌘U)
+ 1. Set both to be active for `*calendar.google.com*`
+ 1. Refresh any Google Calendar pages you have open
+ 1. 💰💰💰
+ 
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Opera_2015_icon.svg" width="20" style="vertical-align: text-bottom;" > Install for [Opera](http://www.opera.com)
+ 1. Install the `Download Chrome Extension` addon from the [Opera Add-ons Store](https://addons.opera.com/en-gb/extensions/details/download-chrome-extension-9/).
+ 1. Go to the [Chrome Web Store extension page](https://chrome.google.com/webstore/detail/picasso-a-google-calendar/ngodfeghffipflmlaehgbklfhkfnklbd).
+ 1. In the URL bar you will see a red icon with a plus.
+ 1. Click on it to install and follow the instructions.
+ 1. Refresh any Google Calendar pages you have open.
+ 1. 💰💰💰
