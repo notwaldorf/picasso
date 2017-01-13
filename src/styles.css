@@ -185,6 +185,11 @@ body, span, div, dt {
   max-height: inherit !important;
 }
 
+/* Nuke background stripes on imported calendar events */
+.cro.cbrd, .rb-n {
+  background-image: none !important
+}
+
 /* Between the all-day and rest */
 #scrolltimedeventswk {
   margin-top: -6px !important;
