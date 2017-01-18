@@ -1,4 +1,4 @@
-/* We're trying to win with these styles, and because of specificity we might not, 
+/* We're trying to win with these styles, and because of specificity we might not,
 so put !important on everything JUST IN CASE.
 */
 body, span, div, dt {
@@ -100,9 +100,9 @@ body, span, div, dt {
 }
 
 /* Now marker */
-.tg-nowmarker {
+/*.tg-nowmarker {
   border-color: #4485f4 !important;
-}
+}*/
 .tg-nowptr {
   height: 0px  !important;
 }
