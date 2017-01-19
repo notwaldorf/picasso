@@ -159,6 +159,7 @@ body, span, div, dt {
   font-size: 12px !important;
 }
 
+
 /* Individual event name, all-day event name */
 .cbrdcc, .st-c-pos, .evt-lk {
   font-weight: bold !important;
@@ -179,12 +180,20 @@ body, span, div, dt {
   border-color: white !important;
 }
 
+/* This one is so great, fixes another strange bug under Windows (#3) */
+
+.cpchip {
+  line-height: normal !important;
+}
+
 /* Individual event time */
 .chip-caption {
   font-size: 12px !important;
 }
 .ctdiv {
   max-height: inherit !important;
+  display: inherit !important;
+  overflow: inherit !important;
 }
 
 /* Nuke background stripes on imported calendar events */
