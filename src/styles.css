@@ -69,6 +69,7 @@ body, span, div, dt {
   position: absolute;
   top: -47px !important;
   left: 40px;
+  width: auto !important;
 }
 
 #createEventButtonContainer .goog-imageless-button-content,
