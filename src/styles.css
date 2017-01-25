@@ -17,9 +17,14 @@ body, span, div, dt {
 }
 
 /* Make the top white, hide some buttons */
-#mg-settings, #mg-more, .applogo, .trans-strip.goog-inline-block {
+#mg-more, .applogo, .trans-strip.goog-inline-block {
   display: none !important;
 }
+/* Center the md-settings icon better */
+#mg-settings .goog-inline-block.goog-imageless-button-outer-box {
+  vertical-align: top;
+}
+
 #vr-nav {
   background: white !important;
   border: #f1f1f1 !important;
