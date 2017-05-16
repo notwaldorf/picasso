@@ -225,8 +225,13 @@ body, span, div, dt {
   border-color: #efefef !important;
 }
 
-/* Essentially the chip width? */
+/* Show the clickable create gutter when hovering */
+.tg-col:hover .tg-gutter, .tg-col-today:hover .tg-gutter {
+  margin-right: 10px !important;
+}
+
 .tg-gutter {
+  transition: margin 0.1s ease-in-out;
   margin-right: 0 !important;
 }
 
